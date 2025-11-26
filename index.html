@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MedScan AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🩺 MedScan AI</h1>
+    <p>AI-powered medical analysis using Google Gemini API</p>
+
+    <!-- Symptoms Input -->
+    <textarea id="symptoms" placeholder="Enter your symptoms..."></textarea>
+    <button onclick="analyzeSymptoms()">Analyze Symptoms</button>
+
+    <!-- File Upload -->
+    <input type="file" id="fileInput">
+    <button onclick="uploadReport()">Analyze Medical Report</button>
+
+    <!-- Output -->
+    <div id="output"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
